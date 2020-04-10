@@ -1,104 +1,11 @@
 <html>
     <head>
         <!-- https://ingoodhands.ca/?gclid=EAIaIQobChMIpY2WiqjX6AIVDP5kCh06TQqyEAAYASAAEgKq3_D_BwE -->
-        <style>
-            /* using position property */
-            body
-            {
-                font-family: 'Courier New', Courier, monospace;
-                letter-spacing: 2px;
-                width: 100%;
-            }
-            
-            .header
-            {
-                background-color: white;
-                box-shadow:0 2px 7px black;
-            }
-            .footer
-            {
-                background-color: white;
-                box-shadow:2px 0 7px black;
-            }
-            /* using flexbox */
-            .content
-            {
-                display:flex;
-                flex-direction:column;
-            }
-            /* descendant selector */
-            
-            .header  p
-            {
-                font-size:60px;
-            }
-            /* child selector */
-            .vision > p,.serviceList > p ,.founderlist > p
-            {
-                font-size: 30px;          
-            }
-            .vision > .visionHeader,.services > .servicesHeader,.founder > .founderHeader 
-            {
-                letter-spacing: 5px; 
-                font-size: 60px;
-                text-align: center;
-                border-top:1px solid black;
-                border-bottom: 1px solid black;
-                padding-top:15px;
-                padding-bottom: 15px;
-            }
-            .vision
-            {
-                color:black;   
-                padding:1%;
-                margin-top:15px;
-            }
-            .header
-            {
-                position:sticky;
-                top:0px;
-                width:100%;
-                padding:3px;    
-                margin-top:-15px;
-            }
-            .footer
-            {
-             position:sticky;
-             bottom:0px;
-             padding:20px;
-            }
-            .aboutQuote
-            {
-                text-align: center;
-                padding:2%;
-                color:black;
-                font-size: 50px;
-                margin-top:5%;
-            }
-            .vision,.services,.founder
-            {
-                margin-left:10%;
-                margin-right:10%;
-            }
-            .serviceList
-            {
-                display:flex;
-                flex-direction: column;   
-                margin-bottom: 5%;
-                position: relative;
-                
-            }
-            /* using grid */
-            .foundercontent
-            {
-                display:grid;
-                grid-template-columns: 20% 80%;
-            }
-        </style>
+        <link rel="stylesheet" href="../css/homestyle.css" ></link>
     </head>
     <body>
         <div class="header">
-            <center><p>ITeach</p></center>
+            <center><p><img src="../images/companylogo.png" width="40" height="40" /> ITeach</p></center>
         </div>
         <div class="content">
         <div class="aboutQuote">
@@ -106,13 +13,13 @@
         </div>
         <div class="vision">
             <p class="visionHeader">Vision</p>
-           <p> ITeach is a platform for students to showcase their teaching skills, 
+           <p>  ITeach is a platform for students to showcase their teaching skills, 
             any student who want to teach anything can reach us for a chance.</p> 
 
            <p> We believe that teaching is a divine profession which allows one to get educated and to educate others,
             in turn shaping the world. Thus, we want to create as many teachers as possible. 
         </p> 
-    <p>    Paying students for their hardwork will not only encourage them to teach but also motivates them to learn something 
+    <p>    One of the perks of using our platform is that you get paid to teach, Paying students for their hardwork will not only encourage them to teach but also motivates them to learn something 
             new to teach.</p>
         </div>
         <div class="services">
@@ -127,12 +34,20 @@
         <div class="founder">
             <p class="founderHeader">Founder</p>
             <div class="founderlist">
-                 <p>Sudheer</p>
+                <center><img class="sudheerlogo" src="../images/sudheer.jpg" width="700" height="500"/></center>
+                 <p>Sudheer Suri is born and brought up in Hyderabad, India. He is currently residing in Thunderbay,Canada. He is from Computer Science background. His interests include 
+                    Web and Mobile Application Development, Competitive Programming, Machine Learning and Physics. He is a big fan of Books and Beatles.
+                 </p>
+                 <p><img src="../images/skype.png" width="40" height="40" /> sudheer.suri9</p>
+                 <p><img src="../images/gmail.png"  width="40" height="40" /> sudhirsuri43@gmail.com</p>
+
+                 <p><img src="../images/Github.png"  width="40" height="40" /> <a href="https://github.com/sudheersuri?tab=repositories">Repos</a></p>
+                 <p><img src="../images/profile.png"  width="40" height="40" /> <a href="portfolio.html">Portfolio</a></p>
             </div>
         </div>
         </div>
         <div class="footer">
-            <center><h2>Contact us</h2></center>
+            <center><h2>Contact us : +1 12 121 2122</h2></center>
         </div> 
     </body>
 </html>

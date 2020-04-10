@@ -1,0 +1,110 @@
+/* using position property */
+ body
+ {
+     font-family: 'Courier New', Courier, monospace;
+     letter-spacing: 2px;
+     width: 100%;
+     line-height: 3rem;
+ }
+  /* using flexbox */
+  .content
+  {
+      display:flex;
+      flex-direction:column;
+  }
+  /* descendant selector */
+  .header  p
+  {
+      font-size:60px;
+  }
+  /* child selector */
+  .vision > p,.serviceList > p ,.founderlist > p
+  {
+      font-size: 30px;          
+  }
+   /* using grid */
+ .founderlist
+ {
+     display:grid;
+     margin-bottom: 5%;
+ }
+ /* psuedo class and child selector */
+ .founderlist > a:visited
+ {
+     color:blue;
+ }
+  
+ .header
+ {
+     background-color: white;
+     box-shadow:0 2px 7px black;
+     margin-left: -20px;
+ }
+ .footer
+ {
+     background-color: white;
+     box-shadow:2px 0 7px black;
+     margin-left: -20px;
+ }
+ .vision > .visionHeader,.services > .servicesHeader,.founder > .founderHeader 
+ {
+     letter-spacing: 5px; 
+     font-size: 60px;
+     text-align: center;
+     border-top:1px solid black;
+     border-bottom: 1px solid black;
+     padding-top:15px;
+     padding-bottom: 15px;
+ }
+ .vision
+ {
+     color:black;   
+     padding:1%;
+     margin-top:15px;
+ }
+ .header
+ {
+     position:sticky;
+     top:0px;
+     width:100%;
+     padding:3px;    
+     margin-top:-15px;
+ }
+ .footer
+ {
+  position:sticky;
+  bottom:0px;
+  padding:20px;
+ }
+ .aboutQuote
+ {
+     text-align: center;
+     padding:2%;
+     color:black;
+     font-size: 50px;
+     margin-top:5%;
+ }
+ .vision,.services,.founder
+ {
+     margin-left:10%;
+     margin-right:10%;
+ }
+ 
+ .serviceList
+ {
+     display:flex;
+     flex-direction: column;   
+     margin-bottom: 5%;
+     
+ }
+ 
+ .founderlist > a
+ {
+     text-decoration: none;
+     font-size: 30px;
+     padding:5px;
+     color:blue;
+ }
+
+ 
+ 

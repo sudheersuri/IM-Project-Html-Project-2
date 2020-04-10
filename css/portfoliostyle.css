@@ -1,0 +1,118 @@
+/* using position property */
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    width: 100%;
+    line-height: 3rem;
+}
+ /* using flexbox */
+ .content
+ {
+     display:flex;
+     flex-direction:column;
+ }
+ /* descendant selector */
+
+ .header  p
+ {
+     font-size:60px;
+ }
+ /* child selector */
+ .education p,.education p,.serviceList > p ,.contactlist > p, .work  p , .projects p ,.certifications p,.languages p 
+ {
+     font-size: 30px;          
+ }
+  /* using grid */
+.contactlist
+{
+    display:grid;
+    margin-bottom: 5%;
+}
+/* psuedo class and child selector */
+.contactlist > a:visited
+{
+    color:blue;
+}
+ button
+ {
+     border:none;
+     border-radius: 5px;
+     background-color: black;
+     padding:15px;
+     font-weight: 600;
+     font-size:20px;
+     color:white;
+     cursor: pointer;
+ }
+ .downloadPDF
+ {
+     text-align: center;
+ }
+.header
+{
+    background-color: white;
+    box-shadow:0 2px 7px black;
+    margin-left: -20px;
+}
+.footer
+{
+    background-color: white;
+    box-shadow:2px 0 7px black;
+    margin-left: -20px;
+}
+.education > .educationHeader,.services > .servicesHeader,.contact > .contactHeader, .work > .workHeader,.projects > .projectsHeader , .languages > .languagesHeader , .certifications > .certificationsHeader 
+{
+    letter-spacing: 5px; 
+    font-size: 60px;
+    text-align: center;
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.education
+{
+    color:black;   
+    padding:1%;
+    margin-top:15px;
+}
+.header
+{
+    position:sticky;
+    top:0px;
+    width:100%;
+    padding:3px;    
+    margin-top:-15px;
+}
+.footer
+{
+ position:sticky;
+ bottom:0px;
+ padding:20px;
+}
+
+.education,.services,.contact,.downloadPDF,.work,.projects,.languages,.certifications
+{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.serviceList
+{
+    display:flex;
+    flex-direction: column;   
+    margin-bottom: 5%;
+    
+}
+
+.contactlist > a
+{
+    text-decoration: none;
+    font-size: 30px;
+    padding:5px;
+    color:blue;
+}
+
+
+
