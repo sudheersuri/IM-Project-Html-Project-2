@@ -5,6 +5,7 @@ body
     letter-spacing: 2px;
     line-height: 3rem;
     margin:0;
+    font-weight:600; 
 }
  /* using flexbox */
  .content

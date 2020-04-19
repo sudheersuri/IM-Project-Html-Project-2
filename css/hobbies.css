@@ -1,0 +1,50 @@
+body
+{
+    margin: 0px;
+ 
+}
+#content {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+}
+button {
+    background-color:black;
+    color:white;
+    padding:20px;
+    border:none;
+    cursor:pointer;
+    font-family: monospace;
+    font-size: 20px;
+    border: 1px solid white;
+    opacity:0.7;
+    border-radius:10%;
+}
+.header p {
+    font-size:60px;
+}
+.header {
+    background-color: white;
+    box-shadow:0 2px 7px black;
+    
+}
+img{
+    border-radius:10%;
+}
+
+.header
+{
+    width:100%;
+    padding:3px;    
+    margin-top:-15px;
+}
+#content p{
+ 
+    color:black;
+    font-size:50px;
+    padding:5px;
+    margin-left:20%;
+    margin-right:20%;
+    box-shadow:0 0 9px green;
+    padding:10px;
+}

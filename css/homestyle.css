@@ -5,6 +5,8 @@
      letter-spacing: 2px;
      line-height: 3rem;
      margin: 0px;
+     font-weight:600;
+ 
  }
   /* using flexbox */
   .content
@@ -20,13 +22,15 @@
   /* child selector */
   .vision > p,.serviceList > p ,.founderlist  p
   {
-      font-size: 30px;          
+      font-size: 30px;    
+      font-weight:600;      
   }
   
  /* psuedo class and child selector */
  .founderlist > a:visited
  {
      color:blue;
+
  }
   td
   {
@@ -99,6 +103,7 @@
      font-size: 30px;
      padding:5px;
      color:blue;
+     
  }
 
  
