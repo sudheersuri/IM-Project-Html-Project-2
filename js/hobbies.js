@@ -13,7 +13,7 @@ var hobbydesc=[
     "Sherlock, another TV Show that had ultra impact on me","Big Bang Theory: i watch it for Sheldon","Daredevil: Another TV show that i watch often",
     "Breaking Bad: Most badass TV show","Money Heist: Best of recent TV shows","Seinfield: A classic, Hillarious  TV Show that is always in my watchlist","Mr.Robot: Anyone into computers must watch it",
     "How I met your mother: I watch it for Barney","I also love to travel","Goa is my favourite holiday destination",
-    "Unlike others i like travelling alone","Am a Bike enthusiast","When am down, i often go on a long ride at dnagerous speeds",
+    "Unlike others i like travelling alone","Am a Bike enthusiast","When am down, i often go for a long ride at dangerous speeds",
     "I also develop games in my free time","I often use Godot for game development","I also write technical blogs",
     "I love teaching","Now and then i upload tutorials on youtube"   
 ];
